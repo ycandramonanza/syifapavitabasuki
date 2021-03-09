@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper nav{
+    background-color: rgb(0, 0, 0);
+}
+.wrapper .navbar-nav{
+    margin-top: 0px;
+    margin-left: 800px !important;
+}
+.wrapper .navbar-nav li a{
+    color: white;
+}
+.wrapper img{
+    width: 50px;
+}
+.wrapper button{
+
+    margin-left: 100px;
+}
+.wrapper span img{
+    visibility: hidden;
+}
+.wrapper .content{
+    background-image: url(img/cinta.jpg);
+    background-size: cover;
+    padding: 200px;
+}
+.wrapper .content button{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.wrapper .footer{
+    background-color: black;
+}
+.wrapper .footer h3{
+    color: white;
+}
+@media (max-width: 575.98px) { 
+    .wrapper .navbar-nav{
+        margin-top: 0px;
+        margin-left: 0px !important;
+    }
+    .wrapper span img{
+        width: 40px;
+        margin-top: -5px;
+        margin-left: -100px;
+        border-radius: 5px;
+        visibility: visible;
+    }
+    .wrapper .content h3{
+        visibility: hidden;
+    }
+    .wrapper .content button{
+        font-size: 15px;
+        margin-top: -350px;
+        margin-left: -100px;
+    }
+    .wrapper .footer h3{
+        margin-left: -60px;
+    }
+}

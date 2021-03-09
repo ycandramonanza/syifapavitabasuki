@@ -46,7 +46,7 @@
     .wrapper span img{
         width: 40px;
         margin-top: -5px;
-        margin-left: -100px;
+        margin-left: -50px;
         border-radius: 5px;
         visibility: visible;
     }
@@ -56,9 +56,9 @@
     .wrapper .content button{
         font-size: 15px;
         margin-top: -350px;
-        margin-left: -100px;
+        margin-left: -50px;
     }
     .wrapper .footer h3{
-        margin-left: -60px;
+        margin-left: 0px;
     }
 }

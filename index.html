@@ -20,13 +20,13 @@
                           <img src="img/hamburger.png" style="background-color: white;" alt="">
                       </span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="#">Galeri Kita</a>
                         </li>
                       </ul>
-                    </div>  
+                    </div>   -->
             </div>
           </nav>
           <div class="content">
@@ -34,7 +34,7 @@
                   <div class="row">
                       <div class="col-12" align="center">
                             <h3>Yegi Candra Monanza <i class="fas fa-heart"></i> Syifa Pavita Basuki</h3>
-                            <button class="btn btn-primary">Klik Disini Sayang</button>
+                            <button id="button" onclick="cinta()" class="btn btn-primary">Klik Disini Sayang</button>
                       </div>
                   </div>
               </div>
@@ -51,5 +51,10 @@
     </div>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="fontawesome/js/all.min.js"></script>
+    <script>
+        function cinta(){
+          document.getElementById('button').innerHTML = "SELAMAT PAGI SAYANG";
+        }
+    </script>
 </body>
 </html>
